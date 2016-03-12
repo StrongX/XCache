@@ -21,7 +21,19 @@ Compute application cache and clean cache
  */
 +(long long)returnFileSize:(NSString *)path;
 /**
+ *  清理缓存
+ *
+ */
++(void)cleanCache:(void(^)())complete;
+/**
+ *  删除单个文件
+ *
+ */
++(void)deleteFile:(NSString *)path;
+/**
  *  生成大量垃圾数据
  */
 +(void)createLargeCache;
+
+
 ```
