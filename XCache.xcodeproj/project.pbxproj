@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A694AA61C94703B00B2DABD /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A694AA51C94703B00B2DABD /* 1.jpg */; };
 		2AF487FF1C941B300054827D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF487FE1C941B300054827D /* main.m */; };
 		2AF488021C941B300054827D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF488011C941B300054827D /* AppDelegate.m */; };
 		2AF488051C941B300054827D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF488041C941B300054827D /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		2AF4880D1C941B300054827D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF4880B1C941B300054827D /* LaunchScreen.storyboard */; };
 		2AF488181C941B300054827D /* XCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF488171C941B300054827D /* XCacheTests.m */; };
 		2AF488231C941B300054827D /* XCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF488221C941B300054827D /* XCacheUITests.m */; };
+		2AF488331C941BA80054827D /* XCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF488321C941BA80054827D /* XCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A694AA51C94703B00B2DABD /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		2AF487FA1C941B300054827D /* XCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF487FE1C941B300054827D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AF488001C941B300054827D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,8 @@
 		2AF4881E1C941B300054827D /* XCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF488221C941B300054827D /* XCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCacheUITests.m; sourceTree = "<group>"; };
 		2AF488241C941B300054827D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF488311C941BA80054827D /* XCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCache.h; sourceTree = "<group>"; };
+		2AF488321C941BA80054827D /* XCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,8 @@
 		2AF487FC1C941B300054827D /* XCache */ = {
 			isa = PBXGroup;
 			children = (
+				2A694AA51C94703B00B2DABD /* 1.jpg */,
+				2AF488301C941B3B0054827D /* XCache */,
 				2AF488001C941B300054827D /* AppDelegate.h */,
 				2AF488011C941B300054827D /* AppDelegate.m */,
 				2AF488031C941B300054827D /* ViewController.h */,
@@ -138,6 +145,15 @@
 				2AF488241C941B300054827D /* Info.plist */,
 			);
 			path = XCacheUITests;
+			sourceTree = "<group>";
+		};
+		2AF488301C941B3B0054827D /* XCache */ = {
+			isa = PBXGroup;
+			children = (
+				2AF488311C941BA80054827D /* XCache.h */,
+				2AF488321C941BA80054827D /* XCache.m */,
+			);
+			name = XCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF4880D1C941B300054827D /* LaunchScreen.storyboard in Resources */,
+				2A694AA61C94703B00B2DABD /* 1.jpg in Resources */,
 				2AF4880A1C941B300054827D /* Assets.xcassets in Resources */,
 				2AF488081C941B300054827D /* Main.storyboard in Resources */,
 			);
@@ -273,6 +290,7 @@
 				2AF488051C941B300054827D /* ViewController.m in Sources */,
 				2AF488021C941B300054827D /* AppDelegate.m in Sources */,
 				2AF487FF1C941B300054827D /* main.m in Sources */,
+				2AF488331C941BA80054827D /* XCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +516,7 @@
 				2AF488291C941B300054827D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AF4882A1C941B300054827D /* Build configuration list for PBXNativeTarget "XCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				2AF4882C1C941B300054827D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AF4882D1C941B300054827D /* Build configuration list for PBXNativeTarget "XCacheUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				2AF4882F1C941B300054827D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

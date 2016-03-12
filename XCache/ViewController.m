@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "XCache.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *cacheLabel;
 
 @end
 
@@ -16,7 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _cacheLabel.text = [XCache returnCacheSize];
+
+}
+- (IBAction)clean:(id)sender {
+    [XCache cleanCache:^{
+        NSLog(@"清理成功");
+    }];
+
 }
 
 - (void)didReceiveMemoryWarning {
